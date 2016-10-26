@@ -1,7 +1,166 @@
 .row {
 	max-width: 100%;
+	margin: 0 !important;
+}
+
+.text-normal {
+	font-family: 'Open Sans';
+	color: #716252;
+}
+
+.link {
+	color: white;
+}
+
+.footer-link {
+	font-size: 15px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: #FFFFFF;
+	display: inline-block; 
+	margin-left: 20px;
+}
+
+.maj {
+	font-size: 34px;
+	color: #f36f2b;
+	font-weight: 800;
+}
+
+.title {
+	font-family: 'Amatic SC';
+	color: white;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1;
+}
+
+.button.button-header {
+	padding: 20px 45px 20px 45px; 
+	border-radius: 5px; 
+	background: #f36f21;
+	margin: 0 auto;
+}
+
+.button.button-header:hover, {
+	background-color: #ffa500;
+}
+
+.text-style {
+	font-family: 'Open Sans'; 
+	font-weight: 800;
+}
+
+.separator {
+	height: 30px;
+	color: #f2ede8;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.block-don {
+	background: white; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+	height: 139px;
+}
+
+.text-soins {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #544c43;
+}
+
+#container-text {
+	padding: 50px; 
+	background: white;
+}
+
+.text-soins-don {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: underline;
+}
+
+.block-don.right {
+	background: #f36f2b;
+}
+
+#block-soins-titre {
+	text-align: left;
+}
+
+#container-principal-visual {
+	margin: 0; 
+	max-width: 100%;
+	text-align: center; 
+	background-image: url('https://s3.amazonaws.com/heroku-adfinitas-campaign/SPA-actions-veterinaires-2016/LP/bg-header.png'); 
+	background-position: 50% 80%; 
+	background-size: cover; 
+	min-height: 0vh; 
+	padding-bottom: 30px; 
+	padding-top: 160px;
+}
+#block-soins {
+	text-align: center; 
+	background: #e7ded6; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	padding-top: 30px; 
+	padding-bottom: 20px
+}
+
+#text-header {
+	margin-left: 15px; 
+	text-transform: uppercase; 
+	font-family: 'Open Sans'; 
+	font-weight: 600; 
+	color: #716252; 
+	font-size: 24px;
+}
+
+#logo-header {
+	max-width: 60px;
 }
 
 @media screen and (max-width: 640px) {
+	#text-header {
+		font-size: 16px;
+	}
+	#container-text {
+		padding: 10px;
+	}
+	.block-don {
+		display: block;
+		height: 100%;
+	}
+
+	#container-principal-visual {
+		padding-top: 22px;
+	}
+
+	#logo-header {
+		max-width: 60px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#block-soins {
+		display: block;
+	}
+	#block-soins-titre {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.footer-link {
+		margin-left: 3px;
+	}
 
 }
