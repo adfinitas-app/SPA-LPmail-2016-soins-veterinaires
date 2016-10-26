@@ -84,12 +84,12 @@
 	color: white;
 	font-weight: 700;
 	padding-top: 10px;
-	padding-bottom: 10px;
-	text-decoration: underline;
+	margin-bottom: 10px;
+	border-bottom: 1px solid white;
 }
 
 .block-don.right {
-	background: #f36f2b;
+	background: #EE710E;
 }
 
 #block-soins-titre {
